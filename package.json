@@ -10,9 +10,9 @@
     "todo": "mocha tests/scenarios/todo/todo.js --reporter mochawesome --timeout 20000",
     "todo-negative": "mocha tests/scenarios/todo/negative.js --reporter mochawesome --timeout 20000",
     "books": "mocha tests/scenarios/books/*.js --reporter mochawesome --timeout 20000",
-    "BOOKS_DEV": "TEST_ENV=BOOKS_DEV npm run books",
-    "BOOKS_STG": "TEST_ENV=BOOKS_STG npm run books",
-    "BOOKS_PRD": "TEST_ENV=BOOKS_PRD npm run books"
+    "BOOKS_DEV": "set TEST_ENV=BOOKS_DEV&& npm run books",
+    "BOOKS_STG": "set TEST_ENV=BOOKS_STG&& npm run books",
+    "BOOKS_PRD": "set TEST_ENV=BOOKS_PRD&& npm run books"
   },
   "author": "Aleksejs Levenciks",
   "license": "ISC",
