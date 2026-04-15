@@ -1,3 +1,6 @@
+This project is a university assignment focused on API test automation. It demonstrates how automated tests can be used to validate application behavior, covering basic scenarios and verifying expected responses. The project is intended for learning purposes and introduces fundamental concepts of automated testing.
+
+
 ## Tech Stack
 
 **Libraries:** chai, mocha, supertest, get-nested-value, mochawesome
